@@ -1,0 +1,276 @@
+*{	
+	margin: 0px;
+	padding: 0px;
+	background-color: #3c4b5b;
+}
+
+#wrapper{
+	min-height: 750px;
+	width: 1100px;
+	background-color: #15212c;
+	margin-left: 15%;
+	margin-top: 1%;
+}
+
+#header{
+	min-height: 107px;
+	background-color: #0f1b24;
+	border-bottom: 3px solid #afabab;
+}
+
+#header a{
+	text-decoration-line: none;
+	text-decoration-style: none;
+	text-decoration-color: silver;
+	background-color: #0f1b24;
+	-webkit-text-stroke: 1px silver;
+	color: #162733;
+}
+
+#header h1{
+	font-size: 45px;
+	margin-left: 70px;
+	margin-top: 35px;
+	background-color: #0f1b24;
+	display: inline-block;
+	-webkit-text-stroke: 1px silver;
+	/*color: #131f29;*/
+}
+
+#content{
+	min-height: 380px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	/*border:1px solid red;*/
+	background-color: #15212c;
+	padding: 5px 10px;
+
+}
+
+#contentHeader{
+	height: 20px;
+	width: 1042px;
+	border: 1px solid white;
+	margin-bottom: 5px;
+	padding: 5px;
+	vertical-align: center;
+}
+
+.HeaderTable {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+#horizontalList  ul{
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul#horizontalList li {
+	display: inline;
+	color: gray;
+	border-left: 2px solid #15222c;
+	margin-left: 3px;
+	padding-left: 6px;
+	background-color: ;
+}
+
+
+#horizontalList a{
+	text-decoration-line: none;
+	text-decoration-style: none;
+	text-decoration-color: silver;
+	color: gray;
+	border-left: 2px solid #15222c;
+	margin-left: 3px;
+	padding-left: 6px;
+
+}
+
+#horizontalList p{
+	display: inline-block;
+	color: gray;
+}
+
+#contentInput{
+	height:400px;
+	width: 377px;
+	display: inline-block;
+	border: 1px solid black;
+	background-color: #73797f;
+	padding: 5px;
+	vertical-align: top;
+}
+
+#contentInput p{
+	width:345px;
+	background-color: inherit;
+}
+
+#contentOutput{
+	height:400px;
+	width: 650px;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	
+}
+
+#news{
+	min-height: 107px;
+	background-color: inherit;
+	text-align: center;
+}
+
+#news h2{
+	padding-left: 90px;
+	text-align: left;
+	background-color: inherit;
+	border-bottom: 3px solid black;
+	margin-bottom: 7px;
+	color: gray;
+	line-height: 35px;
+}
+
+.article{
+	min-height: 110px;
+	width: 27%;
+	display: inline-block;
+	text-align: left;
+	background-color: #24415e;
+	vertical-align: top;
+	margin-left: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 1px black;
+}
+
+.article a{
+	text-decoration-line: none;
+	text-decoration-style: none;
+	text-decoration-color: silver;
+	color: silver;
+	background-color: inherit;
+	text-align: justify;
+	text-justify:inter-word;
+	font-style: italic;
+}
+
+.article p{
+	background-color: inherit;
+	text-align: justify;
+	text-justify:inter-word;
+	margin-top: 5px;
+}
+
+
+
+#news h3{
+	height: 45px;
+	color: silver;
+	background-color: inherit;
+	border-bottom: 3px dashed gray;
+	line-height: 45px;
+}
+
+#footer{
+	height: 40px;
+	vertical-align: top;
+	padding-top: 10px;
+	background-color: inherit;
+}
+
+#googleAPI{
+	height:25px;
+	width: 150px;
+	display: inline-block;
+	margin-left: 40%;
+	background-color: inherit;
+}
+
+#googleAPI img{
+	height: inherit;
+	width: inherit;
+	display: inline-block;
+	background-color: inherit;
+}
+
+#personalBanner{
+	margin-left:  10px;
+	display: inline-block;
+	border-radius: 1px;
+	background-color: inherit;
+}
+
+#personalBanner a{
+	height: 22px;
+	display: inline-block;
+
+	/*background-color: inherit;*/
+	border-radius: 1px;
+}
+
+#personalBanner img{
+	height: 25px;
+	display: inline-block;
+	/*background-color: inherit;*/
+}
+
+#area_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+#candle_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+#column_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+#diff_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+#gantt_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+#geo_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+#intervals_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+#sankey_div{
+	height: 400px;
+	width: 625px;
+	display: none;
+	padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
